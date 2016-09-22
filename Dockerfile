@@ -40,3 +40,5 @@ VOLUME ["/etc/nginx/certs", "/var/log/nginx", "/var/www/html"]
 
 # Define working directory.
 WORKDIR /etc/nginx
+
+COPY nginx.conf /etc/nginx/nginx.conf
