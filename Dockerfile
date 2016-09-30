@@ -4,7 +4,7 @@
 # https://github.com/dockerfile/ubuntu
 #
 
-FROM ubuntu:15.04
+FROM ubuntu:14.04
 
 # Install.
 RUN \
